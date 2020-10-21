@@ -29,6 +29,3 @@
 #### 담당 기능 - 게시판
 ![comm_comments_TB](https://user-images.githubusercontent.com/65805046/96675749-929a0b80-13a6-11eb-83c4-b87e972926b7.PNG)
 
-[^1]### 정보
-임예람   
-ramii1005@daum.net[^1]
