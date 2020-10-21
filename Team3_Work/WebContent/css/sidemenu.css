@@ -1,0 +1,146 @@
+@charset "EUC-KR";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
+
+* {
+/*   margin: 0;
+  padding: 0; */
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box; /*테두리를 포함한 박스크기*/
+  font-family: "Montserrat", sans-serif;
+}
+
+.wrapper {
+  width: 300px;
+  height: auto;
+  background: #ffffff;
+  /* margin: auto 20px; 위아래, 오른쪽 왼쪽 여백 */
+  
+  float: left;
+  color: #555555;
+  margin-left: auto;
+  margin-top: -100px;
+  padding-top: 100px;
+  z-index: 99;
+}
+
+.wrapper .navbar {
+  position: relative; 
+ 
+}
+
+.wrapper .navbar .profile_wrap {
+  padding: 25px;
+  text-align: center;
+}
+
+.wrapper .navbar .profile_wrap .profile_pic {
+  margin: 0 auto 10px; /* 상단은0으로 하단은 10px 좌우는 auto로 가운데 정렬 */
+}
+.wrapper .navbar .profile_wrap .profile_pic img {
+  width: 100px;
+}
+
+.wrapper .navbar .profile_wrap .profile_info .name {
+  font-size: 20px;
+  text-transform: upper;
+  font-weight: 700;
+  color: #223322;
+}
+
+.wrapper .navbar .profile_wrap .profile_info .stunum {
+  font-weight: 400;
+  font-size: 14px;
+  color: #223322;
+}
+.wrapper .navbar .sidemenu {
+  padding: 10px;
+  height: 200px;
+  text-align: center;
+}
+.wrapper .navbar .sidemenu li > a {
+  display: block;
+  font-size: 15px;
+  padding: 15px 25px;
+  height: 50px;
+  color: #8c9ba7;
+  position: relative;
+  text-align: center;
+}
+.wrapper .navbar .sidemenu li > a:hover{
+	cursor: pointer;
+	color: #1790d4;
+	
+}
+
+.wrapper .navbar .sidemenu li > a span {
+  display: inline-block; 
+}
+
+.wrapper .navbar .sidemenu li > a span.icon {
+  
+}
+
+.wrapper .navbar .sidemenu li > a span.arrow {
+  padding: 5px 3px;
+  transition: all 0.3s ease;
+}
+
+.wrapper .navbar .sidemenu li.active > a {
+  color: #1790d4;
+} /*확인*/
+
+.wrapper .navbar .sidemenu .sub_menu {
+  transition: all 0.3s ease;
+  height: 0;
+  overflow: hidden;
+}
+.wrapper .navbar .sidemenu .sub_menu li a {
+  padding: 10px;
+  padding-left: 10px;
+  height: auto;
+  position: relative;
+}
+
+.wrapper .navbar .sidemenu .sub_menu li a:hover {
+  background: #e1f4ff;
+  color: #1790d4;
+}
+.wrapper .navbar .sidemenu .sub_menu li a::before {
+  content: " ";
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  width: 8px;
+  height: 8px;
+  background: #8c9ba7;
+  border-radius: 50%; /*원모양*/
+}
+.wrapper .navbar .sidemenu .sub_menu li a:hover::before {
+  /*커서 올리면 아이콘 색 바뀜*/
+  background: #1790d4;
+}
+
+.wrapper .logout_btn {
+  margin: 25px auto 0;
+  width: 200px;
+  background: #11264f;
+  /* color: #fff; */
+  padding: 5px;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+.wrapper .logout_btn:hover {
+  background: #41bbff;
+}
+
+.wrapper .navbar .sidemenu li.active .sub_menu {
+  height: auto;
+}
+
+.wrapper .navbar .sidemenu li.active a span.arrow {
+  transform: translateY(-5%) rotate(180deg);
+}

@@ -1,0 +1,200 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#doc-wrap {
+  position: relative;
+  min-width: 1200px;
+  overflow: hidden;
+}
+/* 
+.slogo img {
+  width: 400px;
+  height: 100px;
+  margin-top: 15px;
+} */
+/*占쎄퀡�뼺�뜝�룞�삕�뇡�뀘占쏙옙�뜝占�*/
+article {
+  display: block;
+}
+
+/* #visual-wrap {
+  position: relative;
+  width: 100%;
+  height: 260px;
+  z-index: -5;
+}
+
+#visual-wrap #visImg {
+  position: absolute;
+  position: relative;
+  width: 2000px;
+  height: 260px;
+  top: 0px;
+  left: 50%;
+  overflow: hidden;
+  margin: 0 0 0 -1000px;
+}
+
+#visual-wrap #visImg img {
+  width: 100%;
+  height: 100%;
+}
+
+#visual-wrap #visImg span.tit {
+  position: absolute;
+  top: 50%;
+  left: 43%;
+  font-size: 50px;
+  letter-spacing: -0.025em;
+  line-height: 1;
+  font-weight: inherit;
+}
+
+#visual-wrap #visImg span {
+  display: block;
+  color: #f0f0f0;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+}
+
+.layer {
+  background-color: rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+} */
+#container {
+  position: relative;
+  max-width: 1200px;
+/*   margin: 30px; */
+}
+
+#contents {
+  min-height: 600px;
+  word-break: keep-all; /*�뜝�럥�꽑�뜝�럩占쏙옙 �뜝�럩占쏙옙嶺뚳옙�뜝�룞�삕�뇡占썹춯占썲뜝占� �뜝�럥占쏙옙�뜝�럥占썬굩�삕占쏙옙 繞벿븐뫊�뚳옙耀뷂옙�뜝占�*/
+  width: 100%;
+}
+/*  #contents .cont-top {
+  position: relative;
+  margin-bottom: 50px;
+  padding-bottom: 30px;
+}
+
+#contents .cont-top .cont-tit {
+  font-size: 38px;
+  color: #222222;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  text-align: center;
+}
+ */
+#contents #cont {
+  padding: 0 0 80px 0;
+  font-size: 16px;
+  line-height: 1.6;
+  word-break: keep-all;
+  min-height: 400px;
+} 
+ .c-tit01 {
+  position: relative;
+  font-size: 27px;
+  font-weight: 400;
+  color: #222222;
+  padding: 10px 0 0 0;
+  margin-bottom: 40px;
+  letter-spacing: -0.03em;
+  line-height: 1.3em;
+}
+
+.c-tit01::before {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150px;
+  height: 4px;
+  background: #11264f;
+}
+
+.pad20tf {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /* position: relative; */
+}
+
+.sg-btn {
+  background: #f0f0f0;
+  color: #666666;
+  border: 1px solid #aaaaaa;
+    display: inline-block;
+  /* font-size: 12px; */
+  vertical-align: top;
+  transition: all 0.25s ease;
+  
+}
+
+
+.sg-btn span{
+  display: block;
+  padding: 11px 16px 10px;
+  line-height-step: 1;
+  font-size: 80%;
+
+}
+
+.c {
+  text-align: center;
+  
+}
+
+.haksa-schedule-tb1 {
+  border-top: 2px solid #1a456d;
+  width: 100%;
+  border-bottom: 2px solid #1a456d;
+}
+
+table {
+  /* outline: 0; */
+  background: transparent; /*�뜝�럥占쎌뼲占쏙옙占썸틦占�*/
+  font-size: 100%;
+  border-collapse: collapse;
+  /* border-spacing: 0; */
+  /* display: table; */
+}
+
+/* tr {
+  display: table-row;
+  
+} */
+/* 
+.haksa-schedule-tb1 .phead1 {
+  text-align: justify;
+  padding: 15px 10px 5px 10px;
+  border-bottom: 1px solid #e0e0e0;
+}
+ */
+/* .haksa-schedule-tb1 .pdate {
+  width: 120px;
+  text-align: center;
+  color: #1a456d;
+  line-height: 1.4em; 占쎌뼔占쏙옙占� 繞벿우삕 �뤆占썼쥈�룓遊�
+  background-color: #f9f9f9;
+}
+ */
+/* .haksa-schedule-tb1 pdesc {
+  text-align: justify;
+  line-height: 1.4em;
+  word-break: break-all; �뜝�럩占쎈툦�삕�굢占썲뜝�럥占썲뜝�럥占썲뜝�럡占� �뜝�럥占쏙옙�뜝�럥�꽑 �뜝�럩占쏙옙�썒占쏙옙怨쀯옙 �뜝�럥占쏙옙�뜝�럩占싼귣뭄熬곣뫁占� 繞벿븐뫊�뚳옙耀뷂옙�뜝占�
+}
+ */
+.haksa-schedule-tb1 td {
+  /* text-align: justify; */
+  padding: 5px 10px;
+  border-bottom: 1px solid #e9e9e9;
+  text-align: center;
+  padding: 8px;
+}

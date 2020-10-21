@@ -1,0 +1,52 @@
+@charset "EUC-KR";
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.title{
+	background-color: #11264F;
+	color: #fff;
+	height: 40px;
+	padding: 12px 0 0 0;
+}
+
+label{
+	font-size: 13px;
+	color: #555;
+	font-weight: bold;
+	width: 120px;
+}
+
+.bt{
+	width: 66px;
+	heigth: 28px;
+	padding: 3px;
+	margin: 8px 8px;
+}
+
+.bt1{
+	margin-left: 43px;
+}
+
+.txt{
+	width: 250px;
+	background-color: #E8FFF7;
+	border: solid 1px;
+}
+
+.cbrown{
+	color:#9f2c00;
+	font-size: 11px;
+	margin-top: 3px;
+	
+}
+
+.first_cd{
+	margin-left: 43px;
+}
+
+.jumin{
+	margin-top: 15px;
+	
+}

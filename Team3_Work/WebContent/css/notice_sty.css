@@ -1,0 +1,91 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.notice {
+  padding: 0 0 100px;
+  border-left: #dddddd solid 1px;
+}
+.notice > div {
+  margin: 0 auto; 
+  padding: 55px 0;
+}
+
+li {
+  list-style: none;
+}
+/***************************추가됨*****************************/
+div.temp {
+   margin-left: 80px; 
+}
+
+.notice article > div {
+  float: left;
+  width: 800px;
+  background: #f2f0ed;
+  position: relative;
+  
+}
+/* .notice article > div {
+  float: left;
+} */
+
+.notice article > div h2 {
+  font-size: 24px;
+  color: #11264f;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  border-bottom: 1px solid #ffffff;
+}
+
+.notice article > div .a1 {
+  /*더보기 위치*/
+  position: absolute;
+  right: 23px;
+  top: 24px;
+}
+
+.notice article > div ul li a {
+  font-size: 14px;
+  color: #424241;
+}
+.notice article > div a p {
+  font-size: 12px;
+  color: #979797;
+}
+.notice article > div ul li {
+  padding: 10px 0;
+  position: relative;
+  border-bottom: 1px solid #ffffff;
+}
+
+.notice article > div ul li span {
+  display: block;
+  width: 100%;
+  overflow: hidden; /*width을 100%했을 때  예상치 못하게 글이 나가는 것을 방지*/
+  text-overflow: ellipsis; /*내용 함축을 위한 ...표시*/
+  white-space: nowrap; /*글이 길면  자동으로 밑줄로 넘어가서 무조건 한줄 처리 하기 위한 설정*/
+}
+
+/****************************수정됨*****************************************/
+.notice article > div ul li a {
+  display: inline-block; /*수정*/
+  overflow: hidden;
+  width: 400px;
+  height: 25px;
+  line-height: 25px;
+  text-indent: 10px;
+  padding-left: 20px;
+}
+.notice article > div a p {
+  position: absolute;
+  right: 30px;
+  top: 0;
+}
+/* .ctt{
+   position: absolute;
+   clear: both;
+} */

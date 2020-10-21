@@ -1,0 +1,113 @@
+@charset "EUC-KR";
+
+/* 전체 */
+
+/* 셀 속성 */
+/* td {
+  border: 1px dotted black;
+} */
+/* 항목 셀 속성 */
+td.menu {
+  background-color: lightgrey;
+  font-weight: bold;
+  width: 150px; 
+  text-align: center;
+}
+
+.grade {
+	width: 900px;
+	padding: 50px;
+	text-align: left;
+}
+
+.timetable {
+	padding: 20px;
+	text-align: center;
+}
+
+/* .table {
+	text-align: center;
+} */
+
+.attendance {
+	width: 900px;
+}
+
+.class {
+	width: 900px;
+	
+}
+
+
+
+/*탭 메뉴*/
+.container {
+	width: 900px;
+	margin: 50px auto;
+}
+ul.tabs {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+ul.tabs li {
+	background: none;
+	color: #222222;
+	display: inline-block;
+	padding: 5px 10px;
+	cursor: pointer;
+	font-size: 15px;
+}
+ul.tabs li.current {
+	background: #ededed;
+	color: #222222;
+	border-top: 3px solid #11264f;
+} 
+.tab-content {
+	display: none;
+	/* background: #ededed; */
+	padding: 15px;
+	border-top: 1px dotted #11264f;
+	/* border-bottom: 1px dotted #11264f; */
+	color: black;
+}
+
+.tab-content.current {
+	display: inherit;
+}
+
+/*검색창 조건창 속성*/
+p.select {
+  text-align: right;
+
+}
+/* 검색창 속성*/
+p select {
+  text-align: right;
+  font-size: 15px;
+}
+
+/* 글쓰기 버튼 */
+.mbutton {
+  text-align: right;
+  margin: 20px auto;
+}
+
+
+/* 테이블 속성 */
+/* tr{
+border: 1px dotted lightgrey;
+padding: 10px;
+}
+td{
+  padding: 10px;
+  border: 1px dotted lightgrey;
+} */
+
+/* 파일 업로드 버튼 */
+.textbox {
+	margin: 30px 0 0 60px; 
+}
+.file {
+	text-align: right;
+}

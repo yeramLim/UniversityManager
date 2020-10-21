@@ -1,0 +1,22 @@
+@charset "EUC-KR";
+.footer {
+  background-color: #11264f;
+  width: 100%;
+  height: 100px;
+}
+.footer_text {
+  width: 100%;
+  /* margin: 20px auto; */
+  padding: 20px auto;
+  text-align: center;
+  line-height: 100px;
+}
+.footer_text p,
+.footer_text a {
+  color: #ffffff;
+  text-align: center;
+}
+.footer_text span {
+  margin-left: 45px;
+    color: #ffffff;
+}
