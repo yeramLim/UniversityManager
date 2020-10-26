@@ -227,9 +227,9 @@ public class BoardDBBean {
 			}
 
 			if(comm_groupn == 2) {
-				sql = "SELECT C.*, CNT.CONT FROM COMMUNITY C LEFT JOIN (SELECT CMT_INDEX, COUNT(*) CONT FROM COMMENTS GROUP BY CMT_INDEX) CNT ON CNT.CMT_INDEX = C.COMM_INDEX WHERE C.COMM_GROUPN IN (2,3)"+ word +" ORDER BY COMM_REF DESC, COMM_STEP ASC";
+				sql = "select c.*, cnt.cont from community c left join (select cmt_index, count(*) cont from comments group by cmt_index) cnt on cnt.cmt_index = c.comm_index where c.comm_groupn in (2,3)" + word + " order by comm_ref desc, comm_step asc";
 			}else {
-				sql = "SELECT C.*, CNT.CONT FROM COMMUNITY C LEFT JOIN (SELECT CMT_INDEX, COUNT(*) CONT FROM COMMENTS GROUP BY CMT_INDEX) CNT ON CNT.CMT_INDEX = C.COMM_INDEX WHERE C.COMM_GROUPN = " + comm_groupn + word + " ORDER BY COMM_REF DESC, COMM_STEP ASC";
+				sql = "select c.*, cnt.cont from community c left join (select cmt_index, count(*) cont from comments group by cmt_index) cnt on cnt.cmt_index = c.comm_index where c.comm_groupn = " + comm_groupn + word + " order by comm_ref desc, comm_step asc";
 			}
 			rs = stmt.executeQuery(sql);
 				
